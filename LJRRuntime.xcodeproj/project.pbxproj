@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A3863671D17CE44007BD1A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3863661D17CE44007BD1A4 /* main.m */; };
-		4A38636A1D17CE44007BD1A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3863691D17CE44007BD1A4 /* AppDelegate.m */; };
 		4A38636D1D17CE44007BD1A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A38636C1D17CE44007BD1A4 /* ViewController.m */; };
 		4A3863701D17CE44007BD1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A38636E1D17CE44007BD1A4 /* Main.storyboard */; };
 		4A3863721D17CE44007BD1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3863711D17CE44007BD1A4 /* Assets.xcassets */; };
 		4A3863751D17CE44007BD1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3863731D17CE44007BD1A4 /* LaunchScreen.storyboard */; };
 		4A3863801D17CE44007BD1A4 /* LJRRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A38637F1D17CE44007BD1A4 /* LJRRuntimeTests.m */; };
 		4A38638B1D17CE44007BD1A4 /* LJRRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A38638A1D17CE44007BD1A4 /* LJRRuntimeUITests.m */; };
+		4A38639C1D17CE80007BD1A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A38639A1D17CE80007BD1A4 /* AppDelegate.m */; };
+		4A38639D1D17CE80007BD1A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A38639B1D17CE80007BD1A4 /* main.m */; };
+		4A3863A91D17CFAD007BD1A4 /* LJRRTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3863A81D17CFAD007BD1A4 /* LJRRTMethod.m */; };
+		4AF7AE5E1D18C8DB00B8BD14 /* LJRRTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +38,6 @@
 
 /* Begin PBXFileReference section */
 		4A3863621D17CE44007BD1A4 /* LJRRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJRRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A3863661D17CE44007BD1A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A3863681D17CE44007BD1A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4A3863691D17CE44007BD1A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A38636B1D17CE44007BD1A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4A38636C1D17CE44007BD1A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A38636F1D17CE44007BD1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,13 @@
 		4A3863861D17CE44007BD1A4 /* LJRRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJRRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A38638A1D17CE44007BD1A4 /* LJRRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJRRuntimeUITests.m; sourceTree = "<group>"; };
 		4A38638C1D17CE44007BD1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3863991D17CE80007BD1A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A38639A1D17CE80007BD1A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A38639B1D17CE80007BD1A4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A3863A71D17CFAD007BD1A4 /* LJRRTMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTMethod.h; sourceTree = "<group>"; };
+		4A3863A81D17CFAD007BD1A4 /* LJRRTMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRRTMethod.m; sourceTree = "<group>"; };
+		4AF7AE5C1D18C8DB00B8BD14 /* LJRRTProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTProperty.h; sourceTree = "<group>"; };
+		4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRRTProperty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,10 @@
 		4A3863641D17CE44007BD1A4 /* LJRRuntime */ = {
 			isa = PBXGroup;
 			children = (
-				4A3863681D17CE44007BD1A4 /* AppDelegate.h */,
-				4A3863691D17CE44007BD1A4 /* AppDelegate.m */,
+				4A3863981D17CE80007BD1A4 /* Delegate */,
 				4A38636B1D17CE44007BD1A4 /* ViewController.h */,
 				4A38636C1D17CE44007BD1A4 /* ViewController.m */,
-				4A38636E1D17CE44007BD1A4 /* Main.storyboard */,
-				4A3863711D17CE44007BD1A4 /* Assets.xcassets */,
-				4A3863731D17CE44007BD1A4 /* LaunchScreen.storyboard */,
-				4A3863761D17CE44007BD1A4 /* Info.plist */,
+				4A3863A21D17CF47007BD1A4 /* Classes */,
 				4A3863651D17CE44007BD1A4 /* Supporting Files */,
 			);
 			path = LJRRuntime;
@@ -117,7 +119,10 @@
 		4A3863651D17CE44007BD1A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A3863661D17CE44007BD1A4 /* main.m */,
+				4A38636E1D17CE44007BD1A4 /* Main.storyboard */,
+				4A3863711D17CE44007BD1A4 /* Assets.xcassets */,
+				4A3863731D17CE44007BD1A4 /* LaunchScreen.storyboard */,
+				4A3863761D17CE44007BD1A4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +143,43 @@
 				4A38638C1D17CE44007BD1A4 /* Info.plist */,
 			);
 			path = LJRRuntimeUITests;
+			sourceTree = "<group>";
+		};
+		4A3863981D17CE80007BD1A4 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4A3863991D17CE80007BD1A4 /* AppDelegate.h */,
+				4A38639A1D17CE80007BD1A4 /* AppDelegate.m */,
+				4A38639B1D17CE80007BD1A4 /* main.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		4A3863A21D17CF47007BD1A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4AF7AE5B1D18C8B300B8BD14 /* Property */,
+				4A3863A31D17CF47007BD1A4 /* Method */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A3863A31D17CF47007BD1A4 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				4A3863A71D17CFAD007BD1A4 /* LJRRTMethod.h */,
+				4A3863A81D17CFAD007BD1A4 /* LJRRTMethod.m */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		4AF7AE5B1D18C8B300B8BD14 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				4AF7AE5C1D18C8DB00B8BD14 /* LJRRTProperty.h */,
+				4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */,
+			);
+			path = Property;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +244,7 @@
 		4A38635A1D17CE44007BD1A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LJRRT;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = LJR;
 				TargetAttributes = {
@@ -270,9 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3863A91D17CFAD007BD1A4 /* LJRRTMethod.m in Sources */,
+				4AF7AE5E1D18C8DB00B8BD14 /* LJRRTProperty.m in Sources */,
+				4A38639C1D17CE80007BD1A4 /* AppDelegate.m in Sources */,
+				4A38639D1D17CE80007BD1A4 /* main.m in Sources */,
 				4A38636D1D17CE44007BD1A4 /* ViewController.m in Sources */,
-				4A38636A1D17CE44007BD1A4 /* AppDelegate.m in Sources */,
-				4A3863671D17CE44007BD1A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +543,7 @@
 				4A3863911D17CE44007BD1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A3863921D17CE44007BD1A4 /* Build configuration list for PBXNativeTarget "LJRRuntimeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +552,7 @@
 				4A3863941D17CE44007BD1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A3863951D17CE44007BD1A4 /* Build configuration list for PBXNativeTarget "LJRRuntimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +561,7 @@
 				4A3863971D17CE44007BD1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
