@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface LJRRTMessage : NSObject
-
++ (void)messageTest;
 @end

@@ -9,24 +9,19 @@
 #import "ViewController.h"
 #import "LJRRTMethod.h"
 #import "LJRRTProperty.h"
-
+#import "LJRRTMessage.h"
 @interface ViewController ()
-/**
- *   http://code4app.com (cn) http://code4app.net (en) 原作者
- */
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   // [LJRRTMethod methodTest];
-    [LJRRTProperty propertyTest];
+    //[LJRRTMethod methodTest];
+    //[LJRRTProperty propertyTest];
+    [LJRRTMessage messageTest];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

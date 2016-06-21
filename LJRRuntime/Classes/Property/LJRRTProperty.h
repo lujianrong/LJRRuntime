@@ -10,8 +10,8 @@
 
 @interface LJRRTProperty : NSObject
 {
-//    NSString *_name;
-//    NSObject *_objs;
+    NSString *_name;
+    NSObject *_objs;
 }
 
 @property (nonatomic, strong) NSArray   *dataSource;
