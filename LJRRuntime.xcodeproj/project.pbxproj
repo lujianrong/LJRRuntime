@@ -17,6 +17,7 @@
 		4A38639D1D17CE80007BD1A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A38639B1D17CE80007BD1A4 /* main.m */; };
 		4A3863A91D17CFAD007BD1A4 /* LJRRTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3863A81D17CFAD007BD1A4 /* LJRRTMethod.m */; };
 		4AF7AE5E1D18C8DB00B8BD14 /* LJRRTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */; };
+		4AF7AE621D18D6F500B8BD14 /* LJRRTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7AE611D18D6F500B8BD14 /* LJRRTMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		4A3863A81D17CFAD007BD1A4 /* LJRRTMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRRTMethod.m; sourceTree = "<group>"; };
 		4AF7AE5C1D18C8DB00B8BD14 /* LJRRTProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTProperty.h; sourceTree = "<group>"; };
 		4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRRTProperty.m; sourceTree = "<group>"; };
+		4AF7AE601D18D6F500B8BD14 /* LJRRTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTMessage.h; sourceTree = "<group>"; };
+		4AF7AE611D18D6F500B8BD14 /* LJRRTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRRTMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,7 @@
 		4A3863A21D17CF47007BD1A4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4AF7AE5F1D18D6E800B8BD14 /* MessageSend */,
 				4AF7AE5B1D18C8B300B8BD14 /* Property */,
 				4A3863A31D17CF47007BD1A4 /* Method */,
 			);
@@ -180,6 +184,15 @@
 				4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */,
 			);
 			path = Property;
+			sourceTree = "<group>";
+		};
+		4AF7AE5F1D18D6E800B8BD14 /* MessageSend */ = {
+			isa = PBXGroup;
+			children = (
+				4AF7AE601D18D6F500B8BD14 /* LJRRTMessage.h */,
+				4AF7AE611D18D6F500B8BD14 /* LJRRTMessage.m */,
+			);
+			path = MessageSend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +328,7 @@
 			files = (
 				4A3863A91D17CFAD007BD1A4 /* LJRRTMethod.m in Sources */,
 				4AF7AE5E1D18C8DB00B8BD14 /* LJRRTProperty.m in Sources */,
+				4AF7AE621D18D6F500B8BD14 /* LJRRTMessage.m in Sources */,
 				4A38639C1D17CE80007BD1A4 /* AppDelegate.m in Sources */,
 				4A38639D1D17CE80007BD1A4 /* main.m in Sources */,
 				4A38636D1D17CE44007BD1A4 /* ViewController.m in Sources */,
