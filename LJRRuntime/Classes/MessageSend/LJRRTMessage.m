@@ -15,7 +15,7 @@
  */
 + (void)dynamicAddMethod {
     LJRRTMessage *msg = [[LJRRTMessage alloc] init];
-    NSLog(@"encode(const void *)-->%s", @encode(const void *));//
+    NSLog(@"encode(const void *)-->%s", @encode(const void *));//r^v
     class_addMethod(self, NSSelectorFromString(@"c_Function"), (IMP)c_Function, "i@:r^vr^v");
     
     int result = ((int (*)(id, SEL, const void *, const void *))objc_msgSend)((id)msg, NSSelectorFromString(@"c_Function"), @"参数1", @"参数2");

@@ -10,18 +10,23 @@
 #import "LJRRTMethod.h"
 #import "LJRRTProperty.h"
 #import "LJRRTMessage.h"
-@interface ViewController ()
+#import "ForwardMsgCat.h"
 
+@interface ViewController ()
+/**
+ *  NSLog(@"encode(const void *)-->%s", @encode(const void *));//r^v
+ */
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //[LJRRTMethod methodTest];
-    //[LJRRTProperty propertyTest];
-    [LJRRTMessage messageTest];
-    [LJRRTMessage dynamicAddMethod];
+//    [LJRRTMethod methodTest];
+//    [LJRRTProperty propertyTest];
+//    [LJRRTMessage messageTest];
+//    [LJRRTMessage dynamicAddMethod];
+    [ForwardMsgCat forwardMsgTest];
 }
 
 

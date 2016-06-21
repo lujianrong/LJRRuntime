@@ -16,6 +16,9 @@
 		4A38639C1D17CE80007BD1A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A38639A1D17CE80007BD1A4 /* AppDelegate.m */; };
 		4A38639D1D17CE80007BD1A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A38639B1D17CE80007BD1A4 /* main.m */; };
 		4A3863A91D17CFAD007BD1A4 /* LJRRTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3863A81D17CFAD007BD1A4 /* LJRRTMethod.m */; };
+		4AA2AD651D18F06200698F95 /* ForwardMsgCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2AD641D18F06200698F95 /* ForwardMsgCat.m */; };
+		4AA2AD681D18F1C100698F95 /* ForwardMsgDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2AD671D18F1C100698F95 /* ForwardMsgDog.m */; };
+		4AA2AD6B1D18F1CB00698F95 /* ForwardMsgPig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2AD6A1D18F1CB00698F95 /* ForwardMsgPig.m */; };
 		4AF7AE5E1D18C8DB00B8BD14 /* LJRRTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */; };
 		4AF7AE621D18D6F500B8BD14 /* LJRRTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7AE611D18D6F500B8BD14 /* LJRRTMessage.m */; };
 /* End PBXBuildFile section */
@@ -56,6 +59,12 @@
 		4A38639B1D17CE80007BD1A4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A3863A71D17CFAD007BD1A4 /* LJRRTMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTMethod.h; sourceTree = "<group>"; };
 		4A3863A81D17CFAD007BD1A4 /* LJRRTMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRRTMethod.m; sourceTree = "<group>"; };
+		4AA2AD631D18F06200698F95 /* ForwardMsgCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardMsgCat.h; sourceTree = "<group>"; };
+		4AA2AD641D18F06200698F95 /* ForwardMsgCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardMsgCat.m; sourceTree = "<group>"; };
+		4AA2AD661D18F1C100698F95 /* ForwardMsgDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardMsgDog.h; sourceTree = "<group>"; };
+		4AA2AD671D18F1C100698F95 /* ForwardMsgDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardMsgDog.m; sourceTree = "<group>"; };
+		4AA2AD691D18F1CB00698F95 /* ForwardMsgPig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardMsgPig.h; sourceTree = "<group>"; };
+		4AA2AD6A1D18F1CB00698F95 /* ForwardMsgPig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardMsgPig.m; sourceTree = "<group>"; };
 		4AF7AE5C1D18C8DB00B8BD14 /* LJRRTProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTProperty.h; sourceTree = "<group>"; };
 		4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRRTProperty.m; sourceTree = "<group>"; };
 		4AF7AE601D18D6F500B8BD14 /* LJRRTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTMessage.h; sourceTree = "<group>"; };
@@ -161,6 +170,7 @@
 		4A3863A21D17CF47007BD1A4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4AA2AD621D18EB7100698F95 /* ForwardMessage */,
 				4AF7AE5F1D18D6E800B8BD14 /* MessageSend */,
 				4AF7AE5B1D18C8B300B8BD14 /* Property */,
 				4A3863A31D17CF47007BD1A4 /* Method */,
@@ -175,6 +185,19 @@
 				4A3863A81D17CFAD007BD1A4 /* LJRRTMethod.m */,
 			);
 			path = Method;
+			sourceTree = "<group>";
+		};
+		4AA2AD621D18EB7100698F95 /* ForwardMessage */ = {
+			isa = PBXGroup;
+			children = (
+				4AA2AD631D18F06200698F95 /* ForwardMsgCat.h */,
+				4AA2AD641D18F06200698F95 /* ForwardMsgCat.m */,
+				4AA2AD661D18F1C100698F95 /* ForwardMsgDog.h */,
+				4AA2AD671D18F1C100698F95 /* ForwardMsgDog.m */,
+				4AA2AD691D18F1CB00698F95 /* ForwardMsgPig.h */,
+				4AA2AD6A1D18F1CB00698F95 /* ForwardMsgPig.m */,
+			);
+			path = ForwardMessage;
 			sourceTree = "<group>";
 		};
 		4AF7AE5B1D18C8B300B8BD14 /* Property */ = {
@@ -257,7 +280,7 @@
 		4A38635A1D17CE44007BD1A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = LJRRT;
+				CLASSPREFIX = ForwardMsg;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = LJR;
 				TargetAttributes = {
@@ -326,7 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA2AD681D18F1C100698F95 /* ForwardMsgDog.m in Sources */,
+				4AA2AD651D18F06200698F95 /* ForwardMsgCat.m in Sources */,
 				4A3863A91D17CFAD007BD1A4 /* LJRRTMethod.m in Sources */,
+				4AA2AD6B1D18F1CB00698F95 /* ForwardMsgPig.m in Sources */,
 				4AF7AE5E1D18C8DB00B8BD14 /* LJRRTProperty.m in Sources */,
 				4AF7AE621D18D6F500B8BD14 /* LJRRTMessage.m in Sources */,
 				4A38639C1D17CE80007BD1A4 /* AppDelegate.m in Sources */,
