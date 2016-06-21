@@ -10,6 +10,26 @@
 #import <UIKit/UIKit.h>
 #import <objc/message.h>
 @implementation LJRRTMessage
+/**
+ *  动态添, 加调用方法
+ */
++ (void)dynamicAddMethod {
+    LJRRTMessage *msg = [[LJRRTMessage alloc] init];
+    NSLog(@"encode(const void *)-->%s", @encode(const void *));//
+    class_addMethod(self, NSSelectorFromString(@"c_Function"), (IMP)c_Function, "i@:r^vr^v");
+    
+    int result = ((int (*)(id, SEL, const void *, const void *))objc_msgSend)((id)msg, NSSelectorFromString(@"c_Function"), @"参数1", @"参数2");
+    NSLog(@"\n result- >%d", result);
+}
+
+
+int c_Function(id receiver, SEL sel, const void *arg1, const void *arg2) {
+    NSLog(@"%s was called, arg1 is %@, and arg2 is %@",
+          __FUNCTION__,
+          [NSString stringWithUTF8String:arg1],
+          [NSString stringWithUTF8String:arg1]);
+    return 1;
+}
 
 + (void)messageTest {
     //创建对象  (id)[LJRRTMessage class] ---> self

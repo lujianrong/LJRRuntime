@@ -21,6 +21,7 @@
     //[LJRRTMethod methodTest];
     //[LJRRTProperty propertyTest];
     [LJRRTMessage messageTest];
+    [LJRRTMessage dynamicAddMethod];
 }
 
 

@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface LJRRTMessage : NSObject
+/**
+ *  objc_msgSend()练习
+ */
 + (void)messageTest;
+/**
+ *  动态添, 加调用方法
+ */
++ (void)dynamicAddMethod;
 @end
