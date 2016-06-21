@@ -11,7 +11,7 @@
 #import "LJRRTProperty.h"
 #import "LJRRTMessage.h"
 #import "ForwardMsgCat.h"
-
+#import "LJRMethodExchange.h"
 @interface ViewController ()
 /**
  *  NSLog(@"encode(const void *)-->%s", @encode(const void *));//r^v
@@ -26,7 +26,8 @@
 //    [LJRRTProperty propertyTest];
 //    [LJRRTMessage messageTest];
 //    [LJRRTMessage dynamicAddMethod];
-    [ForwardMsgCat forwardMsgTest];
+//    [ForwardMsgCat forwardMsgTest];
+    [LJRMethodExchange methodExchangeTest];
 }
 
 

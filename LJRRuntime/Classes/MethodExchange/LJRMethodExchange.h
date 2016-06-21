@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface LJRMethodExchange : NSObject
+
 + (void)methodExchangeTest;
 @end

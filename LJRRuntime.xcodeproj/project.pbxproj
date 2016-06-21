@@ -20,6 +20,7 @@
 		4AA2AD681D18F1C100698F95 /* ForwardMsgDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2AD671D18F1C100698F95 /* ForwardMsgDog.m */; };
 		4AA2AD6B1D18F1CB00698F95 /* ForwardMsgPig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2AD6A1D18F1CB00698F95 /* ForwardMsgPig.m */; };
 		4AA2AD6F1D19229A00698F95 /* LJRMethodExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2AD6E1D19229A00698F95 /* LJRMethodExchange.m */; };
+		4AA2AD761D19265500698F95 /* NSObject+LJRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2AD751D19265500698F95 /* NSObject+LJRSwizzle.m */; };
 		4AF7AE5E1D18C8DB00B8BD14 /* LJRRTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */; };
 		4AF7AE621D18D6F500B8BD14 /* LJRRTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7AE611D18D6F500B8BD14 /* LJRRTMessage.m */; };
 /* End PBXBuildFile section */
@@ -68,7 +69,8 @@
 		4AA2AD6A1D18F1CB00698F95 /* ForwardMsgPig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardMsgPig.m; sourceTree = "<group>"; };
 		4AA2AD6D1D19229A00698F95 /* LJRMethodExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRMethodExchange.h; sourceTree = "<group>"; };
 		4AA2AD6E1D19229A00698F95 /* LJRMethodExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRMethodExchange.m; sourceTree = "<group>"; };
-		4AA2AD701D1923C600698F95 /* CStyleSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CStyleSwizzle.h; sourceTree = "<group>"; };
+		4AA2AD741D19265500698F95 /* NSObject+LJRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJRSwizzle.h"; sourceTree = "<group>"; };
+		4AA2AD751D19265500698F95 /* NSObject+LJRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJRSwizzle.m"; sourceTree = "<group>"; };
 		4AF7AE5C1D18C8DB00B8BD14 /* LJRRTProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTProperty.h; sourceTree = "<group>"; };
 		4AF7AE5D1D18C8DB00B8BD14 /* LJRRTProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRRTProperty.m; sourceTree = "<group>"; };
 		4AF7AE601D18D6F500B8BD14 /* LJRRTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRRTMessage.h; sourceTree = "<group>"; };
@@ -210,7 +212,8 @@
 			children = (
 				4AA2AD6D1D19229A00698F95 /* LJRMethodExchange.h */,
 				4AA2AD6E1D19229A00698F95 /* LJRMethodExchange.m */,
-				4AA2AD701D1923C600698F95 /* CStyleSwizzle.h */,
+				4AA2AD741D19265500698F95 /* NSObject+LJRSwizzle.h */,
+				4AA2AD751D19265500698F95 /* NSObject+LJRSwizzle.m */,
 			);
 			path = MethodExchange;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				4A3863A91D17CFAD007BD1A4 /* LJRRTMethod.m in Sources */,
 				4AA2AD6B1D18F1CB00698F95 /* ForwardMsgPig.m in Sources */,
 				4AF7AE5E1D18C8DB00B8BD14 /* LJRRTProperty.m in Sources */,
+				4AA2AD761D19265500698F95 /* NSObject+LJRSwizzle.m in Sources */,
 				4AF7AE621D18D6F500B8BD14 /* LJRRTMessage.m in Sources */,
 				4A38639C1D17CE80007BD1A4 /* AppDelegate.m in Sources */,
 				4A38639D1D17CE80007BD1A4 /* main.m in Sources */,
